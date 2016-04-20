@@ -1,0 +1,171 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  background-color: #def2f9;
+  font-family: sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.header {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.st0 {
+  opacity: 0.5;
+  fill: #6dcff6;
+}
+
+.st1 {
+  opacity: 0.5;
+}
+
+.st2 {
+  fill: #00aeef;
+  stroke: #00aeef;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.st3 {
+  fill: none;
+  stroke: #00aeef;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.st4 {
+  fill: #fff;
+}
+
+.st5 {
+  font-family: "MyriadPro-Regular";
+}
+
+.st6 {
+  font-size: 75.4976px;
+}
+
+svg {
+  width: 200px;
+  height: auto;
+  opacity: 1;
+  z-index: 10000;
+}
+
+.spinner:hover .st1 {
+  transform-origin: center center;
+  animation: spin 1.8s infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.banner {
+  overflow: hidden;
+  padding: 125px;
+  position: relative;
+  background-color: #00aeef;
+  max-height: 100px;
+}
+
+.title {
+  top: 32%;
+  text-align: center;
+  left: 0;
+  color: white;
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.9);
+}
+
+.snow {
+  left: 0;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 0;
+  background: url("../svgs/banner-snow.svg")no-repeat center center / contain;
+  transform-origin: center center;
+  animation: flakes 2.5s linear infinite;
+}
+
+@keyframes flakes {
+  
+  0% {
+    top: -50px;
+  }
+  100% {
+    top: 100%;
+  }
+}
+
+/*.clicked-snow{
+  animation: fade 1.5 linear ease-out;
+}
+
+@keyframes fade {
+  0% {
+    size: 100%;
+    opacity: 100%;
+  }
+  
+  35% {
+    size: 110%;
+    opacity: 100%
+  }
+  100% {
+    size: 10%;
+    opacity: 0%
+  }
+}
+*/
+figure {
+  z-index: 500;
+  width: 250px;
+  padding: 2rem;
+  margin: 0;
+  vertical-align: top;
+}
+
+figcaption {
+  color: #00aeef;
+  text-align: center;
+  padding: .5rem;
+  width: 220px;
+}
+
+figcaption p {
+  color: #000;
+}
+
+@media only screen and (min-width: 250px) {
+
+  figure {
+    display: inline-block;
+  }
+}

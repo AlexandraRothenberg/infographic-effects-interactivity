@@ -1,0 +1,41 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 89 89.2" style="enable-background:new 0 0 89 89.2;" xml:space="preserve">
+	<g>
+		<ellipse class="st0" cx="44.5" cy="44.6" rx="44.5" ry="44.6"/>
+		<g class="st1">
+			<line class="st2" x1="44.7" y1="12.3" x2="44.7" y2="76.8"/>
+			<polygon class="st3" points="44.6,7.8 40,12.4 49.4,12.4"/>
+			<polyline class="st2" points="49.3,16.5 47,19.4 42.3,19.4 40,16.5"/>
+			<polyline class="st2" points="49.3,29 47,24.2 42.3,24.2 40,29"/>
+			<polyline class="st2" points="49.7,33.3 44.8,44.3 39.8,33.5"/>
+			<line class="st2" x1="76.9" y1="44.6" x2="12.5" y2="44.6"/>
+			<polygon class="st3" points="81.5,44.4 77,39.8 77,49.2"/>
+			<polyline class="st2" points="72.9,49.1 70,46.8 70,42.1 72.9,39.8"/>
+			<polyline class="st2" points="60.4,49.1 65.1,46.8 65.1,42.1 60.4,39.8"/>
+			<polyline class="st2" points="56,49.5 45,44.6 55.9,39.7"/>
+			<polygon class="st3" points="44.9,81.4 49.5,76.8 40.1,76.8"/>
+			<polyline class="st2" points="40.2,72.7 42.5,69.8 47.3,69.8 49.6,72.7"/>
+			<polyline class="st2" points="40.2,60.2 42.5,65 47.3,65 49.6,60.2"/>
+			<polyline class="st2" points="39.8,55.9 44.8,44.9 49.7,55.7"/>
+			<polygon class="st3" points="18.8,70.8 25.3,70.8 18.6,64.2"/>
+			<polyline class="st2" points="21.6,61.4 25.3,60.9 28.6,64.3 28.2,68"/>
+			<polyline class="st2" points="30.4,52.5 28.7,57.5 32,60.9 37,59.1"/>
+			<line class="st2" x1="21.7" y1="21.4" x2="67.2" y2="67"/>
+			<polygon class="st3" points="18.1,18.1 18.1,24.6 24.8,17.9"/>
+			<polyline class="st2" points="27.6,20.9 28,24.6 24.7,27.9 21,27.5"/>
+			<polyline class="st2" points="36.4,29.7 31.4,28 28.1,31.3 29.8,36.3"/>
+			<line class="st2" x1="68" y1="21.5" x2="22.5" y2="67"/>
+			<polygon class="st3" points="71.4,17.9 64.9,17.9 71.6,24.6"/>
+			<polyline class="st2" points="68.6,27.4 64.9,27.9 61.5,24.5 62,20.8"/>
+			<polyline class="st2" points="59.8,36.2 61.5,31.3 58.1,27.9 53.2,29.6"/>
+			<polygon class="st3" points="71,70.7 71,64.2 64.3,70.9"/>
+			<polyline class="st2" points="61.5,67.9 61.1,64.2 64.4,60.8 68.1,61.3"/>
+			<polyline class="st2" points="52.7,59.1 57.7,60.8 61,57.4 59.3,52.4"/>
+			<polygon class="st3" points="8,44.8 12.6,49.4 12.6,39.9"/>
+			<polyline class="st2" points="16.6,40.1 19.6,42.4 19.6,47.1 16.6,49.4"/>
+			<polyline class="st2" points="29.1,40.1 24.4,42.4 24.4,47.1 29.1,49.4"/>
+			<polyline class="st2" points="33.5,39.7 44.5,44.6 33.6,49.5"/>
+		</g>
+		<text transform="matrix(1 0 0 1 24.708 68.7118)" class="st4 st5 st6">2</text>
+	</g>
+</svg>
