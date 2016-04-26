@@ -31,10 +31,9 @@ $numberClick.on('animationend', function () {
   $numberClick.removeClass('away');
 });
 
-
-
 $('form').on('submit', function (e) {
   var $li = $('<li>');
+
   e.preventDefault();
   $li.html($input.val());
   $list.append($li);

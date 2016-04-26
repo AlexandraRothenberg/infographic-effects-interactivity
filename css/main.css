@@ -206,6 +206,7 @@ figcaption {
   text-align: center;
   padding: .5rem;
   width: 220px;
+  opacity: 0;
 }
 
 figcaption p {
