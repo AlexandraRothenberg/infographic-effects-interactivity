@@ -23,13 +23,7 @@ for (i = 0; i < 30; i++) {
 
 };
 
-$numberClick.on('click', function () {
-  $numberClick.addClass('away');
-});
-
-$numberClick.on('animationend', function () {
-  $numberClick.removeClass('away');
-});
+$('.nav').localScroll();
 
 $('form').on('submit', function (e) {
   var $li = $('<li>');

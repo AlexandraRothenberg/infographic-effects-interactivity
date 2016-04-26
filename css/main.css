@@ -28,6 +28,29 @@ body {
   margin: 0;
 }
 
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  text-align: left;
+}
+
+nav a {
+  display: inline-block;
+  padding: .5em .75em;
+
+  color: #333;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav .current {
+  background-color: #333;
+  color: #fff;
+}
+
 .st0 {
   opacity: 0.5;
   fill: #6dcff6;
@@ -175,7 +198,7 @@ svg {
 }
 
 figure {
-  z-index: 500;
+  z-index: 100000;
   width: 250px;
   padding: 2rem;
   margin: 0;
@@ -187,7 +210,7 @@ figcaption {
   text-align: center;
   padding: .5rem;
   width: 220px;
-  2
+  z-index: 1;
 }
 
 .figcap {
@@ -195,7 +218,7 @@ figcaption {
 }
 
 figcaption p {
-  color: #000
+  color: #000;
 }
 
 @media only screen and (min-width: 250px) {
