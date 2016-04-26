@@ -80,7 +80,9 @@ svg {
 }
 
 @keyframes spin {
+
   0% { transform: rotate(0deg); }
+
   100% { transform: rotate(360deg); }
 }
 
@@ -119,16 +121,17 @@ svg {
   width: 50px;
   position: absolute;
   top: 0;
-  background: url("../svgs/banner-snow.svg")no-repeat center center / contain;
+  background: url("../svgs/banner-snow.svg") no-repeat center center / contain;
   transform-origin: center center;
   animation: flakes 2.5s linear infinite;
 }
 
 @keyframes flakes {
-  
+
   0% {
     top: -50px;
   }
+
   100% {
     top: 100%;
   }
@@ -140,24 +143,23 @@ svg {
 }
 
 @keyframes away {
-  
+
   0% {
     width: 200px;
     height: auto;
   }
-  
+
   20% {
     width: 220px;
     height: auto;
     opacity: 1;
   }
-  
-  100%{
+
+  100% {
     width: 50px;
     height: auto;
     opacity: 0;
   }
-  
 }
 
 .listing {
