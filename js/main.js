@@ -2,7 +2,9 @@ var $banner = $('.banner');
 var $width = $banner.outerWidth();
 var $height = $banner.outerHeight();
 var $makeSnow;
-var $numberClick = $('figure');
+var $numberClick = $('svg');
+var $input = $('#list-input');
+var $list = $('.list');
 
 for (i = 0; i < 30; i++) {
 
@@ -23,4 +25,17 @@ for (i = 0; i < 30; i++) {
 
 $numberClick.on('click', function () {
   $numberClick.addClass('away');
+});
+
+$numberClick.on('animationend', function () {
+  $numberClick.removeClass('away');
+});
+
+
+
+$('form').on('submit', function (e) {
+  var $li = $('<li>');
+  e.preventDefault();
+  $li.html($input.val());
+  $list.append($li);
 });
