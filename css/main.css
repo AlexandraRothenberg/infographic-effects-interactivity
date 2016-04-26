@@ -138,8 +138,7 @@ svg {
 }
 
 .away {
-  animation: away linear 0.7s;
-
+  transition: away 0.7s;
 }
 
 @keyframes away {
@@ -161,6 +160,31 @@ svg {
     opacity: 0;
   }
 }
+
+/*.away {
+  animation: away 0.7s;
+
+}
+
+@keyframes away {
+
+  0% {
+    width: 200px;
+    height: auto;
+  }
+
+  20% {
+    width: 220px;
+    height: auto;
+    opacity: 1;
+  }
+
+  100% {
+    width: 50px;
+    height: auto;
+    opacity: 0;
+  }
+}*/
 
 .listing {
   padding: 2rem;
@@ -187,11 +211,15 @@ figcaption {
   text-align: center;
   padding: .5rem;
   width: 220px;
-  opacity: 0;
+  2
+}
+
+.figcap {
+  opacity: 1;
 }
 
 figcaption p {
-  color: #000;
+  color: #000
 }
 
 @media only screen and (min-width: 250px) {
