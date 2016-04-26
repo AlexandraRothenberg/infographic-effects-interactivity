@@ -2,6 +2,7 @@ var $banner = $('.banner');
 var $width = $banner.outerWidth();
 var $height = $banner.outerHeight();
 var $makeSnow;
+var $numberClick = $('figure');
 
 for (i = 0; i < 30; i++) {
 
@@ -19,3 +20,7 @@ for (i = 0; i < 30; i++) {
   $banner.append($makeSnow);
 
 };
+
+$numberClick.on('click', function () {
+  $numberClick.addClass('away');
+});
