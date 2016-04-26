@@ -28,27 +28,35 @@ body {
   margin: 0;
 }
 
+nav {
+  width: 100%;
+  display: inline-block;
+  background-color: #00aeef;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.9);
+}
+
 nav ul {
   margin: 0;
   padding: 0;
 }
 
 nav li {
-  text-align: left;
+  display: inline-block;
+  text-align: center;
+  width: 32.3%;
 }
 
 nav a {
-  display: inline-block;
+  display: block;
   padding: .5em .75em;
 
-  color: #333;
+  color: #fff;
   text-decoration: none;
 }
 
 nav a:hover,
 nav .current {
-  background-color: #333;
-  color: #fff;
+  background-color: #def2f9;
 }
 
 .st0 {
