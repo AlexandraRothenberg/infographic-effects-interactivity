@@ -27,6 +27,7 @@ for (i = 0; i < 30; i++) {
 
 $('form').on('submit', function (e) {
   var $li = $('<li>');
+
   e.preventDefault();
   $li.html($input.val());
   $list.append($li);
