@@ -236,25 +236,4 @@ figcaption p {
   figure {
     display: inline-block;
   }
-  
-  .board {
-    width: 200px;
-    height: auto;
-  }
-}
-
-@media only screen and (min-width: 608px) {
- 
-  .board {
-    width: 400px;
-    height: auto;
-  }
-}
-
-@media only screen and (min-width: 960px) {
- 
-  .board {
-    width: 650px;
-    height: auto;
-  }
 }
