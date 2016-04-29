@@ -5,7 +5,8 @@ var $makeSnow;
 var $numberClick = $('svg');
 var $input = $('#list-input');
 var $list = $('.list');
-var $bear = $('.bear');
+
+$('.nav').localScroll();
 
 for (i = 0; i < 30; i++) {
 
@@ -23,3 +24,10 @@ for (i = 0; i < 30; i++) {
   $banner.append($makeSnow);
 
 };
+
+$('form').on('submit', function (e) {
+  var $li = $('<li>');
+  e.preventDefault();
+  $li.html($input.val());
+  $list.append($li);
+});
