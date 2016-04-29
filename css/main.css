@@ -44,7 +44,7 @@ nav ul {
 nav li {
   display: inline-block;
   text-align: center;
-  width: 32.3%;
+  width: 49%;
 }
 
 nav a {
@@ -155,7 +155,7 @@ svg {
   position: absolute;
   top: 0;
   background: url("../svgs/banner-snow.svg") no-repeat center center / contain;
-  transform-origin: center center;
+  transform-origin: center;
   animation: flakes 2.5s linear infinite;
 }
 
@@ -197,7 +197,7 @@ svg {
 
 .listing {
   padding: 2rem;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
   width: 100%;
   background-color: #00aeef;
   text-align: center;
@@ -235,5 +235,26 @@ figcaption p {
 
   figure {
     display: inline-block;
+  }
+  
+  .board {
+    width: 200px;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 608px) {
+ 
+  .board {
+    width: 400px;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+ 
+  .board {
+    width: 650px;
+    height: auto;
   }
 }
